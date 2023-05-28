@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file(var.credentials_file)
+  credentials = "./eighth-facet-388107-70f38365f9a3.json" 
 
   project = var.project
   region  = var.region
