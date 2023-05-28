@@ -3,7 +3,7 @@ steps:
   PackageMyNodeApp:
     title: Packaging Node application
     image: node:11.1
-    working_directory: ./01_simple_pipeline/nodejs_example
+    working_directory: dAmarender/terraform-vm-instance
     commands:
       - echo "My Node version is"
       - node --version
@@ -11,7 +11,7 @@ steps:
   PackageMyPythonApp:
     title: Packaging Python application
     image: python:3.6.4-alpine3.6
-    working_directory: ./01_simple_pipeline/python_example
+    working_directory: dAmarender/terraform-vm-instance/startupscript.sh
     commands:
       - echo "My Python version is"
       - python --version
