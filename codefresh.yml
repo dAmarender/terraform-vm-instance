@@ -3,17 +3,8 @@ steps:
   PackageMyNodeApp:
     title: Packaging Node application
     image: node:11.1
-    working_directory: dAmarender/terraform-vm-instance
+    working_directory: dAmarender/terraform-vm-instance/.main.tf
     commands:
-      - echo "My Node version is"
-      - node --version
-      - npm install
-  PackageMyPythonApp:
-    title: Packaging Python application
-    image: python:3.6.4-alpine3.6
-    working_directory: dAmarender/terraform-vm-instance/startupscript.sh
-    commands:
-      - echo "My Python version is"
-      - python --version
-      - pip3 install -U
-      - pip list -o
+      - terraform init
+      - terraform plan
+  
