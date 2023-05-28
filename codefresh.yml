@@ -19,7 +19,7 @@ steps:
       - echo $ACCOUNT_JSON_CONTENT > /codefresh/volume/account.json
       - cf_export GOOGLE_CLOUD_KEYFILE_JSON=/codefresh/volume/account.json
   DeployWithTerraform:
-    image: hashicorp/terraform:0.12.0
+    image: hashicorp/terraform:1.4.6
     title: Deploying Terraform plan
     stage: deploy
     commands:
