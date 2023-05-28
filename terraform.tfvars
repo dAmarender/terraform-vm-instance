@@ -1,4 +1,4 @@
-project           = "eighth-facet-388107"
+project           = "gcloud-vm-388121"
 instance_name     = "ubuntu-1804"
 credentials_file  = "eighth-facet-388107-70f38365f9a3.json"
 region            = "us-central1"
