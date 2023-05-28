@@ -23,6 +23,7 @@ steps:
     title: Deploying Terraform plan
     stage: deploy
     commands:
+      - terraform -version
       - terraform init
       - terraform plan 
   
