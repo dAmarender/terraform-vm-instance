@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = "gcloud-vm-388121-f17c2ed996e8.json" 
+  credentials = "./gcloud-vm-388121-f17c2ed996e8.json" 
 
   project = var.project
   region  = var.region
