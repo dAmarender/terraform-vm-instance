@@ -1,6 +1,6 @@
-project           = "learning-283508"
+project           = "eighth-facet-388107"
 instance_name     = "ubuntu-1804"
-credentials_file  = "/Users/amarenderreddydodle/terraform-vm-instance/eighth-facet-388107-70f38365f9a3.json"
+credentials_file  = "eighth-facet-388107-70f38365f9a3.json"
 region            = "us-central1"
 zone              = "us-central1-c"
 machine_type      = "n1-standard-2"
