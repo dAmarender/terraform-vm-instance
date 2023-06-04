@@ -1,5 +1,5 @@
 project           = "gcloud-vm-388121"
-instance_name     = "Terrafrom-0623"
+instance_name     = "ubuntu-1804"
 credentials_file  = "gcloud-vm-388121-f17c2ed996e8.json"
 region            = "australia-southeast2"
 zone              = "australia-southeast2-a"
