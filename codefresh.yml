@@ -25,5 +25,6 @@ steps:
     commands:
       - terraform -version
       - terraform init
-      - terraform plan 
+      - terraform plan
+      - terraform apply
   
